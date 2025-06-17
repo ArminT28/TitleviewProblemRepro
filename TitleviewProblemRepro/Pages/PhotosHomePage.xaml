@@ -4,7 +4,7 @@
              x:Class="TitleviewProblemRepro.Pages.PhotosHomePage"
              Title="PhotosHomePage">
   <NavigationPage.TitleView>
-    <Grid  >
+    <Grid x:Name="TitleGrid">
       <Label Text="Home Page" HorizontalOptions="StartAndExpand" VerticalOptions="Center" TextColor="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource White}}" FontSize="Large"   />
       <Button Text="test" HorizontalOptions="Center" ImageSource="plus32.png" TextColor="White" />
       <ImageButton  Source="camera_plus_32.png" HorizontalOptions="End" HeightRequest="32"/>
